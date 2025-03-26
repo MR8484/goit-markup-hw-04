@@ -134,7 +134,7 @@ img {
       rgba(46, 47, 66, 0.7),
       rgba(46, 47, 66, 0.7)
     ),
-    url("../img/hero-bg.png");
+    url("../images/people-office.jpg");
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -199,6 +199,17 @@ img {
   clip-path: inset(100%);
   clip: rect(0 0 0 0);
   overflow: hidden;
+}
+
+.icon {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: 1px solid #8e8f99;
+  border-radius: 4px;
+  width: 264px;
+  height: 112px;
+  background: #f4f4fd;
 }
 
 .features-list {
