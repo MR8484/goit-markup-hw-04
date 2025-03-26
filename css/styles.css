@@ -210,7 +210,10 @@ img {
   width: 264px;
   height: 112px;
   background: #f4f4fd;
+  box-shadow: 5px 5px 5px red;
+  
 }
+
 
 .features-list {
   display: flex;
