@@ -293,20 +293,14 @@ img {
   margin-bottom: 8px;
 }
 
-.social {
-  display: flex;
-  justify-content: space-between;
+.icons-list {
+  display: inline-flex;
   align-items: center;
-  padding: 8px 16px 32px 16px;
-}
+  flex-direction: row;
 
-.social a {
-  display: flex;
-  justify-content: center;
-  align-items: center;
   width: 40px;
   height: 40px;
-  border: 1px solid #182bd6;
+  border: 3px solid #182bd6;
   border-radius: 50%;
 }
 
