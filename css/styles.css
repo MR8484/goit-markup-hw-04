@@ -293,8 +293,14 @@ img {
   margin-bottom: 8px;
 }
 
-.icon-instagram {
-  display: inline-flexbox;
+.icon-instagram,
+.icon-twitter,
+.icon-facebook,
+.icon-linkedin {
+  display: inline-flex;
+  border: 2px dashed #2a2a2a;
+  border-radius: 50px;
+  fill: #1818ca;
 }
 
 .social-list {
