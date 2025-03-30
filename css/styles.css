@@ -238,6 +238,9 @@ img {
   box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.25);
 }
 
+.soc-icon-seti {
+}
+
 .features-list {
   display: flex;
   align-items: center;
@@ -486,13 +489,13 @@ img {
 }
 
 .media {
-  display: flex;
-  align-items: center;
-  text-align: left;
-  flex-direction: column;
+  width: 208px;
+  height: 80px;
 }
+
 .footer-item {
   display: flex;
+  max-width: 1200px;
   align-items: baseline;
 }
 
