@@ -393,6 +393,11 @@ img {
   background: #fff;
 }
 
+.portfolio-ithem:hover {
+  box-shadow: 0 2px 1px 0 rgba(46, 47, 66, 0.08),
+    0 1px 1px 0 rgba(46, 47, 66, 0.16), 0 1px 6px 0 rgba(46, 47, 66, 0.08);
+}
+
 .card-portfolio-title {
   font-weight: 500;
   font-size: 20px;
@@ -436,11 +441,6 @@ img {
 .page-footer {
   background-color: #2e2f42;
   padding: 100px 0;
-  display: flex;
-  justify-content;
-}
-
-.footer-container {
 }
 
 .footer-logo {
@@ -477,22 +477,23 @@ img {
   gap: 16px;
   padding: 0;
 }
+
 .social-media-text {
   font: 500 16px / 1.5;
   letter-spacing: 0.02em;
   color: #fff;
-  width: 96px;
-  height: 24px;
+  margin-bottom: 16px;
 }
 
 .media {
   display: flex;
   align-items: center;
-  justify-content: left;
+  text-align: left;
   flex-direction: column;
 }
-
-.footer-container {
+.footer-item {
+  display: flex;
+  align-items: baseline;
 }
 
 .social-media-link a {
