@@ -489,13 +489,15 @@ img {
 }
 
 .media {
-  width: 208px;
-  height: 80px;
+  display: flex;
+  justify-items: left;
+  flex-direction: column;
+  margin-left: 0;
+  padding-left: 120px;
 }
 
 .footer-item {
   display: flex;
-  max-width: 1200px;
   align-items: baseline;
 }
 
