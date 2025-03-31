@@ -199,6 +199,7 @@ img {
   border: none;
   border-radius: 4px;
   min-width: 169px;
+  transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .btn-banner:hover {
@@ -407,6 +408,7 @@ img {
   width: 360px;
   height: 420px;
   background: #fff;
+  transition: box-shadow 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .portfolio-ithem:hover {
