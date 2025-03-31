@@ -517,7 +517,7 @@ img {
   align-items: baseline;
 }
 
-.social-media-link a {
+.social-media-link {
   width: 40px;
   height: 40px;
   display: flex;
