@@ -236,7 +236,6 @@ img {
   border-radius: 4px;
   margin-bottom: 8px;
   background: #f4f4fd;
-  box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.25);
 }
 
 .soc-icon-seti {
@@ -278,7 +277,6 @@ img {
 
 /* --our-team-- */
 .our-team {
-  box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.25);
   background: #f4f4fd;
   display: flex;
   justify-content: space-between;
@@ -538,3 +536,5 @@ img {
 .footer-container {
   margin-right: 120px;
 }
+
+/*--Домашка №5--*/
